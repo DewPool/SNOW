@@ -1,0 +1,61 @@
+{
+    "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https://raw.githubusercontent.com/DewPool/SNOW/main/ed.json",
+    "info": {
+        "url_png_icon_64x64": "https://ik.imagekit.io/dew/DEW-LOGO.png",
+        "url_png_logo": "https://ik.imagekit.io/dew/DewStakingLOGO.png",
+        "location": "",
+        "social": {
+            "twitter_handle": "",
+            "telegram_handle": "",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": "",
+            "instagram_handle": ""
+        },
+        "company": {
+            "name": "Dew Staking Solutions",
+            "addr": "",
+            "city": "",
+            "country": "USA",
+            "company_id": "",
+            "vat_id": ""
+        },
+        "about": {
+            "me": "",
+            "server": "",
+            "company": ""
+        }
+    },
+    "my-pool-ids": {
+        "0": "309efe23c36361a6db77e0e10b93510341e20dd8a741e49a0597ad5e",
+        "1": ""
+    },
+    "when-satured-then-recommend": {
+        "0": "7b92c27d47addf920a4b74db73d99c8ebe06057c802b332d945077d1",
+        "1": ""
+    },
+    "telegram-admin-handle": {
+        "0": "your_tg_handle"
+    },
+    "adapools_ext": {
+        "prometheus": {
+            "0": {
+                "name": "relay 1 eu",
+                "type": "relay",
+                "key": "example_get_own_on_adapools.org/connect"
+            },
+            "1": {
+                "name": "relay 2 usa",
+                "type": "relay",
+                "key": "example_get_own_on_adapools.org/connect"
+            },
+            "2": {
+                "name": "block producer home",
+                "type": "bp",
+                "key": "example_get_own_on_adapools.org/connect"
+            }
+        }
+    }
+}
